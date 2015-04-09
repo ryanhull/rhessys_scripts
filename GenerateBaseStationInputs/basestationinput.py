@@ -7,8 +7,8 @@
 # (I used rows and columns), then you can export the resulting raster
 # as an ASCII file which by default has the correct format for this.
 
-fi = open('/media/cee-user/Storage/CRB_MANUAL/base/cellid.asc', 'r')
-fo = open('/media/cee-user/Storage/CRB_MANUAL/base/cor.txt','w')
+fi = open('/media/cee-user/Storage/CRB_MANUAL/base/AbatzMetdataIDsASCII.asc', 'r')
+fo = open('/media/cee-user/Storage/CRB_MANUAL/base/AbatzMetdataCoord.txt','w')
 
 cols = int(fi.readline().split()[1])
 rows = int(fi.readline().split()[1])

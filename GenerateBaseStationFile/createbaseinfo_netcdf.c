@@ -187,12 +187,12 @@ int main(int argc, char *argv[]){
 			fprintf(fout,"%f effective_lai\n",data[i][2]);
 			fprintf(fout,"2.0 screen_height\n");
 			fprintf(fout,"0.045 location_searching_distance\n");
-			fprintf(fout,"../clim/data.2007_2011_crb.nc netcdf_tmax_filename\n");
-			fprintf(fout,"Tmax netcdf_var_tmax\n");
-			fprintf(fout,"../clim/data.2007_2011_crb.nc netcdf_tmin_filename\n");
-			fprintf(fout,"Tmin netcdf_var_tmin\n");
-			fprintf(fout,"../clim/data.2007_2011_crb.nc netcdf_rain_filename\n");
-			fprintf(fout,"Prec netcdf_var_rain\n");
+			fprintf(fout,"../clim/Abatzaglou/CRB_tmax_1979_2013.nc netcdf_tmax_filename\n");
+			fprintf(fout,"air_temperature netcdf_var_tmax\n");
+			fprintf(fout,"../clim/Abatzaglou/CRB_tmin_1979_2013.nc netcdf_tmin_filename\n");
+			fprintf(fout,"air_temperature netcdf_var_tmin\n");
+			fprintf(fout,"../clim/Abatzaglou/CRB_precip_1979_2013.nc netcdf_rain_filename\n");
+			fprintf(fout,"precipitation_flux netcdf_var_rain\n");
 			fprintf(fout,"%s year_start_index\n",argv[7]);
 		}
 	}
